@@ -49,4 +49,9 @@ class Interval {
         this.start = s;
         this.end = e;
     }
+
+    @Override
+    public String toString() {
+        return start + " / " + end;
+    }
 }
