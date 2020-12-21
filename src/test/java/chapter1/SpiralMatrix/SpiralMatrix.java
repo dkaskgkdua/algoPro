@@ -38,7 +38,7 @@ public class SpiralMatrix {
             //up
             if(colStart <= colEnd) {
                 for (int i = rowEnd; i >= rowStart; i--) {
-                    result.add(matrix[rowEnd][colStart]);
+                    result.add(matrix[i][colStart]);
                 }
             }
             colStart++;
