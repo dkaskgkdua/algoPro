@@ -1,5 +1,6 @@
 package chapter1.AddTwoNumbers;
 
+import chapter1.ListNode;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -24,12 +25,5 @@ public class AddTwoNumbersTest {
         }
 
 
-    }
-}
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        this.val =x;
     }
 }

@@ -1,5 +1,7 @@
 package chapter1.AddTwoNumbers;
 
+import chapter1.ListNode;
+
 /**
  * 1. LinkedList와 유사한 ListNode라는 객체를 생성한다.
  * 2. 각 객체는 val 변수와 ListNode 객체를 가진다.
