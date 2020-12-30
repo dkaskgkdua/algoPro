@@ -1,9 +1,7 @@
-package chapter1.AddTwoNumbers;
+package chapter2.AddTwoNumbers;
 
-import chapter1.ListNode;
+import chapter2.ListNode;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class AddTwoNumbersTest {
     @Test

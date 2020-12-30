@@ -1,7 +1,7 @@
-package chapter1.MergeKSortedLists;
+package chapter2.MergeKSortedLists;
 
 
-import chapter1.ListNode;
+import chapter2.ListNode;
 
 import java.util.PriorityQueue;
 

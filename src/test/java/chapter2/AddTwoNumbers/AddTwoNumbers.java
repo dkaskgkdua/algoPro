@@ -1,6 +1,6 @@
-package chapter1.AddTwoNumbers;
+package chapter2.AddTwoNumbers;
 
-import chapter1.ListNode;
+import chapter2.ListNode;
 
 /**
  * 1. LinkedList와 유사한 ListNode라는 객체를 생성한다.

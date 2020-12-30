@@ -1,4 +1,4 @@
-package chapter1;
+package chapter2;
 
 public class ListNode {
     public int val;
