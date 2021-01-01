@@ -1,6 +1,6 @@
-package chapter2.MergeKSortedLists;
+package LinkedList.MergeKSortedLists;
 
-import chapter2.ListNode;
+import LinkedList.ListNode;
 import org.junit.Test;
 
 public class MergeKSortedListsTest {

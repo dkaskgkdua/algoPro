@@ -1,4 +1,4 @@
-package chapter2;
+package LinkedList;
 
 public class ListNode {
     public int val;

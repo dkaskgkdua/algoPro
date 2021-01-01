@@ -1,6 +1,6 @@
-package chapter2.ReverseLinkedList;
+package LinkedList.ReverseLinkedList;
 
-import chapter2.ListNode;
+import LinkedList.ListNode;
 
 /**
  * 역순으로 만들어 주는문제

@@ -1,6 +1,6 @@
-package chapter2.AddTwoNumbers;
+package LinkedList.AddTwoNumbers;
 
-import chapter2.ListNode;
+import LinkedList.ListNode;
 import org.junit.Test;
 
 public class AddTwoNumbersTest {
