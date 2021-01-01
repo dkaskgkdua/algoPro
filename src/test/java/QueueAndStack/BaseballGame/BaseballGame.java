@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * C의 경우 삭제
  * D의 경우 최상단 것 제곱 후 새로 추가
- *
+ * +의 경우 상단 2개를 더해서 새로 push
  * 최종적으로 모두 합한 결과를 리턴턴 * */
 public class BaseballGame {
     public static int points(String[] strs) {
