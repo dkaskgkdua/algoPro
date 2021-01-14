@@ -11,13 +11,14 @@ public class CourseScheduleTest {
         //given
         int[][] ex1 = {{1,0}, {0,1}};
         int[][] ex2 = {{1,0}, {2,1}, {3,2}};
+        int course = 4;
 
         //when
-        boolean solve1 = CourseSchedule.solve(ex1);
-        boolean solve2 = CourseSchedule.solve(ex2);
+       // boolean solve1 = CourseSchedule.solve(ex1);
+        boolean solve2 = CourseSchedule.solve2(course, ex2);
 
         //then
-        assertFalse(solve1);
+        //assertFalse(solve1);
         assertTrue(solve2);
     }
 }
