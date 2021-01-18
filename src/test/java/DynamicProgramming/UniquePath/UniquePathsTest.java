@@ -1,5 +1,6 @@
-package DynamicProgramming;
+package DynamicProgramming.UniquePath;
 
+import DynamicProgramming.UniquePath.UniquePaths;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.CoinChange;
 
 import java.util.Arrays;
 

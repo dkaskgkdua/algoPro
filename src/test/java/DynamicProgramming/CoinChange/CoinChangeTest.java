@@ -1,5 +1,6 @@
-package DynamicProgramming;
+package DynamicProgramming.CoinChange;
 
+import DynamicProgramming.CoinChange.CoinChange;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.UniquePath;
 
 /**
  * 시작(0,0)에서 끝(m,n)까지 가는 방법의 갯수
