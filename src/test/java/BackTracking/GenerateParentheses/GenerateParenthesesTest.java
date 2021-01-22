@@ -1,5 +1,6 @@
-package BackTracking;
+package BackTracking.GenerateParentheses;
 
+import BackTracking.GenerateParentheses.GenerateParentheses;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package BackTracking;
+package BackTracking.GenerateParentheses;
 
 import java.util.ArrayList;
 import java.util.List;
