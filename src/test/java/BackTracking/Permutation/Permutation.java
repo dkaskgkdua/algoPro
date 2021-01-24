@@ -29,8 +29,6 @@ public class Permutation {
         }
         // 2 for 저장, 탈출
         for(int i = 0; i <nums.length; i++) {
-//            if(cur.size() == nums.length)
-//                continue;
             // 중복된 것인지 체크
             if(cur.contains(nums[i])) {
                 continue;
