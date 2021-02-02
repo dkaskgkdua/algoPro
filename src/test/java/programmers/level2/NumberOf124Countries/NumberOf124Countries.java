@@ -1,4 +1,4 @@
-package programmers.level1.NumberOf124Countries;
+package programmers.level2.NumberOf124Countries;
 
 public class NumberOf124Countries {
     public static String solution(int n) {

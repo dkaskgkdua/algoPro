@@ -1,8 +1,6 @@
-package programmers.level1.NumberOf124Countries;
+package programmers.level2.NumberOf124Countries;
 
 import org.junit.Test;
-
-import java.text.NumberFormat;
 
 import static org.junit.Assert.*;
 
