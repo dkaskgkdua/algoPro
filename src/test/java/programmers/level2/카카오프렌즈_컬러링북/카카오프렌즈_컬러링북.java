@@ -18,14 +18,11 @@ public class 카카오프렌즈_컬러링북 {
             for(int y = 0; y < arr[0].length; y++) {
                 if(arr[x][y] != 0) {
                     areaCount++;
-                    int visited = 0;
-                    maxCount = Math.max(dfs(arr, x, y, m, n, arr[x][y], visited), maxCount);
+                    maxCount = Math.max(dfs(arr, x, y, m, n, arr[x][y], 0), maxCount);
                 }
             }
         }
-
-        int[] answer = {areaCount, maxCount };
-        return answer;
+        return new int[]{ areaCount, maxCount };
     }
 
     public static int dfs(int[][] picture, int x, int y, int m, int n, int ori, int visited) {
@@ -44,9 +41,7 @@ public class 카카오프렌즈_컬러링북 {
 
     public static void copy(int[][] picture, int[][] arr, int m, int n) {
         for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                arr[i][j] = picture[i][j];
-            }
+            if (n >= 0) System.arraycopy(picture[i], 0, arr[i], 0, n);
         }
     }
 }

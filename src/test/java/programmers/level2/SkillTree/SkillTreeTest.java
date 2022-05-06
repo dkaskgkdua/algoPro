@@ -1,4 +1,4 @@
-package programmers.level2;
+package programmers.level2.SkillTree;
 
 import org.junit.Test;
 

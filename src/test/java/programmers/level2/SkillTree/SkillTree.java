@@ -1,4 +1,4 @@
-package programmers.level2;
+package programmers.level2.SkillTree;
 
 public class SkillTree {
     public static int solution(String skill, String[] skill_trees) {
